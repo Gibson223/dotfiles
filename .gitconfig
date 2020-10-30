@@ -1,0 +1,15 @@
+[user]
+	email = 34198702+Gibson223@users.noreply.github.com
+	name = Gibson Vredeveld
+[core]
+	longpaths = true
+# Comment: This is to unlock Visual Studio Code as your Git diff and Git merge tool
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+# Comment: End of "Extra Block"
