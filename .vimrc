@@ -22,3 +22,4 @@ set ruler                      " Shows the current line number at the bottom-rig
 set wildmenu
 set wildmode=longest:full,full
 imap jj <Esc>
+set clipboard^=unnamed,unnamedplus
